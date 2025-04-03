@@ -130,7 +130,7 @@ rec {
 
   esp-idf-kconfig = buildPythonPackage rec {
     pname = "esp-idf-kconfig";
-    version = "2.3.0";
+    version = "2.5.0";
     pyproject = true;
 
     build-system = [
@@ -140,7 +140,7 @@ rec {
     src = fetchPypi {
       inherit version;
       pname = "esp_idf_kconfig";
-      sha256 = "sha256-n+8QM5xe+c8UFl8dTndRTBd4QW7nG1NWiYiEdll06wg=";
+      sha256 = "sha256-G65GbZh1tlOITRJG1bDKfHq247f0/1pzLjyAljHg45I=";
     };
 
     doCheck = false;
